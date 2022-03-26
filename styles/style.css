@@ -6,3 +6,26 @@ Green: #00B172
 White: #FFF
 
 */
+
+/* .navbar-container img {
+  background-size: contain;
+  background-repeat: no-repeat;
+} */
+.navbar-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+
+  /* height: 50px; */
+}
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.navImage {
+  height: 2000px;
+  width: 100%;
+  border-radius: 50%;
+  margin-right: 10px;
+}
