@@ -1,31 +1,43 @@
-/*
-Colors:
-
-Text: 1A1A1A
-Green: #00B172
-White: #FFF
-
-*/
-
-/* .navbar-container img {
-  background-size: contain;
-  background-repeat: no-repeat;
-} */
 .navbar-container {
   display: grid;
-  grid-template-columns: 1fr 1fr;
-
-  /* height: 50px; */
+  grid-template-areas: "navbar-logo . navbar-links";
+  grid-auto-columns: 1fr 1fr 1fr;
+  width: 100%;
+  height: auto;
 }
-.centered {
+
+.navbar-logo {
+  grid-column: 1;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.navbar-links {
+  grid-column: 3;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navImage {
+  position: relative;
+}
+
+.centered-title {
   position: absolute;
-  top: 50%;
+  top: 35%;
   left: 50%;
   transform: translate(-50%, -50%);
+  color: white;
+  text-align: center;
 }
-.navImage {
-  height: 2000px;
-  width: 100%;
-  border-radius: 50%;
-  margin-right: 10px;
+.centered-title h1 {
+  font-size: 4rem;
+  font-family: "Roboto", sans-serif;
+  color: white;
+}
+.centered-title p {
+  font-size: 1.3rem;
+  font-family: "Roboto", sans-serif;
+  color: #ebe8e8;
 }
