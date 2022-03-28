@@ -1,12 +1,55 @@
 
-
+.navbar-container {
+    display: grid;
+    grid-template-areas: "navbar-logo . navbar-links";
+    grid-auto-columns: 1fr 1fr 1fr;
+    width: 100%;
+    height: auto;
+  }
+  
+  .navbar-logo {
+    grid-column: 1;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+  }
+  .navbar-links {
+    grid-column: 3;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .navImage {
+    position: relative;
+  }
+  
+  .centered-title {
+    position: absolute;
+    top: 35%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    text-align: center;
+  }
+  .centered-title h1 {
+    font-size: 4rem;
+    font-family: "Roboto", sans-serif;
+    color: white;
+  }
+  .centered-title p {
+    font-size: 1.3rem;
+    font-family: "Roboto", sans-serif;
+    color: #ebe8e8;
+  }
 .hani-title {
     display: flex;
     justify-content: center;
     color: #141414;
     font-size: 2em;
-    font-weight: 600;
+    font-weight: 700;
     margin-bottom: 40px;
+    font-family: "roboto" ,sans-serif;
 
 }
 .hani-container {
@@ -14,6 +57,7 @@
     justify-content: center;
     flex-direction: row;
     flex-wrap: wrap;
+    font-family: "roboto" ,sans-serif;
 }
 .hani-card {background-color: #fff;
     width: 21.25em;
@@ -26,7 +70,7 @@
 .hani-icon{
     text-align: center;
 }
-img{
+.hani-img{
     max-width: 100px;
     max-height: 100px;
 }
