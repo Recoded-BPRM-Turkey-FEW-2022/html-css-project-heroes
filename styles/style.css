@@ -80,3 +80,47 @@ font-size: 1.5em;
 font-weight: 700;
 margin: 20px;
 }
+#rama {
+  background-color: #00B172;
+  background-image: url(./images/spotify-icon-white.png);
+  background-size: 9%;
+  background-repeat: no-repeat;
+  background-position: center;
+  color: #FFF;
+  display: flex;
+  justify-content: space-between;
+  max-width: 100vw;
+  height: 80vh;
+  padding: 5%;
+  line-height: 1.5;
+}
+
+.info{
+  max-width: 40vw;
+}
+.appimg{
+  margin-right: 5%;
+}
+.screenshot {
+  height: 100%;
+}
+hr{
+  border: solid 1px white;
+  width: 70%;
+}
+
+h2 {
+  font-size: 2rem;
+  font-weight: 400;
+}
+h3 {
+  font-size: 1.7rem;
+  font-weight: 400;
+  margin-top: 1.5rem;
+}
+
+p {
+  font-weight: 300;
+  font-size: 1.5rem;
+  margin-top: 1.5rem;
+} 
