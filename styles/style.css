@@ -1,84 +1,93 @@
-
 .navbar-container {
-    display: grid;
-    grid-template-areas: "navbar-logo . navbar-links";
-    grid-auto-columns: 1fr 1fr 1fr;
-    width: 100%;
-    height: auto;
-  }
-  
-  .navbar-logo {
-    grid-column: 1;
-    display: flex;
-    justify-content: flex-start;
-    align-items: center;
-  }
-  .navbar-links {
-    grid-column: 3;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-  }
-  
-  .navImage {
-    position: relative;
-  }
-  
-  .centered-title {
-    position: absolute;
-    top: 35%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    color: white;
-    text-align: center;
-  }
-  .centered-title h1 {
-    font-size: 4rem;
-    font-family: "Roboto", sans-serif;
-    color: white;
-  }
-  .centered-title p {
-    font-size: 1.3rem;
-    font-family: "Roboto", sans-serif;
-    color: #ebe8e8;
-  }
-.hani-title {
-    display: flex;
-    justify-content: center;
-    color: #141414;
-    font-size: 2em;
-    font-weight: 700;
-    margin-bottom: 40px;
-    font-family: "roboto" ,sans-serif;
+  display: grid;
+  grid-template-areas: "navbar-logo . navbar-links";
+  grid-auto-columns: 1fr 1fr 1fr;
+  width: 100%;
+  height: auto;
+}
 
+.navbar-logo {
+  grid-column: 1;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.navbar-links {
+  font-family: "Roboto", sans-serif;
+  grid-column: 3;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.navbar-links a {
+  text-decoration: none;
+  color: #a09e9e;
+  font-size: 1.2rem;
+  padding: 0.5rem;
+}
+
+.navImage {
+  position: relative;
+}
+
+.centered-title {
+  position: absolute;
+  top: 35%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  text-align: center;
+}
+.centered-title h1 {
+  font-size: 4rem;
+  font-family: "Roboto", sans-serif;
+  color: white;
+}
+.centered-title p {
+  font-size: 1.3rem;
+  font-family: "Roboto", sans-serif;
+  color: #ebe8e8;
+}
+.hani-title {
+  display: flex;
+  justify-content: center;
+  color: #141414;
+  font-size: 2em;
+  font-weight: 700;
+  margin-bottom: 40px;
+  font-family: "roboto", sans-serif;
 }
 .hani-container {
-    display: flex;
-    justify-content: center;
-    flex-direction: row;
-    flex-wrap: wrap;
-    font-family: "roboto" ,sans-serif;
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+  font-family: "roboto", sans-serif;
 }
-.hani-card {background-color: #fff;
-    width: 21.25em;
-    box-shadow:0 5px 25px rgba(1, 1, 1, 15%);
-    border-radius: 0px;
-    padding: 25px;
-    margin: 25px;
+.hani-card {
+  background-color: #fff;
+  width: 21.25em;
+  box-shadow: 0 5px 25px rgba(1, 1, 1, 15%);
+  border-radius: 0px;
+  padding: 25px;
+  margin: 25px;
 }
 
-.hani-icon{
-    text-align: center;
+.hani-icon {
+  text-align: center;
 }
-.hani-img{
-    max-width: 100px;
-    max-height: 100px;
+.hani-img {
+  max-width: 100px;
+  max-height: 100px;
 }
-.hani-info{ text-align: center;}
-.hani-info h3{color:#00E670;
-font-size: 1.5em;
-font-weight: 700;
-margin: 20px;
+.hani-info {
+  text-align: center;
+}
+.hani-info h3 {
+  color: #00e670;
+  font-size: 1.5em;
+  font-weight: 700;
+  margin: 20px;
 }
 #rama {
   background-color: #00B172;
